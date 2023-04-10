@@ -1,0 +1,337 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-24T10:18:57.584Z",
+        "line": 4,
+        "name": "Sample 1",
+        "description": " Given \n When \n And ",
+        "id": "feature-to-demo-tags;sample-1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-24T10:18:57.586Z",
+        "line": 11,
+        "name": "Sample 2",
+        "description": " Given \n When \n And ",
+        "id": "feature-to-demo-tags;sample-2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-24T10:18:57.588Z",
+        "line": 17,
+        "name": "Sample 3",
+        "description": " Given \n When \n And ",
+        "id": "feature-to-demo-tags;sample-3",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-24T10:18:57.590Z",
+        "line": 23,
+        "name": "Sample 4",
+        "description": " Given \n When \n And ",
+        "id": "feature-to-demo-tags;sample-4",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@important"
+          }
+        ]
+      }
+    ],
+    "name": "Feature to demo tags",
+    "description": "",
+    "id": "feature-to-demo-tags",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/featuresWithTags/Tags.feature",
+    "tags": []
+  }
+] "before": [
+              {
+                "result": {
+                  "duration": 1002000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepForHooks.HooksDemoSteps.Beforesteps()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "user enters valid username and password",
+            "match": {
+              "location": "StepForHooks.HooksDemoSteps.user_enters_valid_username_and_password()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepForHooks.HooksDemoSteps.AfterSteps()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepForHooks.HooksDemoSteps.Beforesteps()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "clicks on login button",
+            "match": {
+              "location": "StepForHooks.HooksDemoSteps.clicks_on_login_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepForHooks.HooksDemoSteps.AfterSteps()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepForHooks.HooksDemoSteps.Beforesteps()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "StepForHooks.HooksDemoSteps.user_is_navigated_to_the_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepForHooks.HooksDemoSteps.AfterSteps()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-24T10:18:57.535Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepForHooks.HooksDemoSteps.setup2()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "login",
+        "description": "",
+        "id": "check-login-functionality;login",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepForHooks.HooksDemoSteps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1002100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepForHooks.HooksDemoSteps.Beforesteps()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepForHooks.HooksDemoSteps.user_is_on_login_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepForHooks.HooksDemoSteps.AfterSteps()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepForHooks.HooksDemoSteps.Beforesteps()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "user enters valid username and password",
+            "match": {
+              "location": "StepForHooks.HooksDemoSteps.user_enters_valid_username_and_password()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepForHooks.HooksDemoSteps.AfterSteps()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepForHooks.HooksDemoSteps.Beforesteps()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "clicks on login button",
+            "match": {
+              "location": "StepForHooks.HooksDemoSteps.clicks_on_login_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepForHooks.HooksDemoSteps.AfterSteps()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepForHooks.HooksDemoSteps.Beforesteps()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "StepForHooks.HooksDemoSteps.user_is_navigated_to_the_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepForHooks.HooksDemoSteps.AfterSteps()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check login functionality",
+    "description": "",
+    "id": "check-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Hooks/HooksDemo.feature",
+    "tags": []
+  }
+]

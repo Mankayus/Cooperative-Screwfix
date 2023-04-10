@@ -1,0 +1,114 @@
+package StepForHooks;
+
+
+import java.time.Duration;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+import io.cucumber.java.After;
+import io.cucumber.java.AfterStep;
+import io.cucumber.java.Before;
+import io.cucumber.java.BeforeStep;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+//lecture 8 and 9, the second test will fail bcos of way we use hook browserseup,browser will not 
+// open for the second test and it will fail
+public class HooksDemoSteps {
+	
+	 WebDriver driver=null;
+	 
+	@Before(value="@smoke",order=1)
+	public void browsersetup() {
+		
+		System.out.println("I am inside browser set up");
+		System.setProperty("webdriver.chrome.driver", "src/test/resources/Drivers/chromedriver.exe");
+		ChromeOptions option=new ChromeOptions();
+		option.addArguments("--remote-allow-origins=*");
+		
+		driver=new ChromeDriver(option);
+		
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().window().maximize();
+		
+	}
+    
+	@Before(order=0)
+	public void setup2()
+	{
+		System.out.println("I am inside setup2");
+	}
+	
+	@After
+    public void teardown()
+    {
+		System.out.println("I am inside tear down");	
+    	driver.close();
+    }
+	
+	
+    
+	@BeforeStep
+	public void Beforesteps()
+	{
+		System.out.println("I am inside Before steps================");
+	}
+    
+	
+	
+	@AfterStep
+	public void AfterSteps()
+	{
+		System.out.println("I am inside AfterSteps===================");
+	}
+	
+	
+	
+	
+	
+	@Given("user is on login page")
+	public void user_is_on_login_page() {
+
+
+	}
+
+	@When("user enters valid username and password")
+	public void user_enters_valid_username_and_password() {
+
+
+
+	}
+
+	@And("clicks on login button")
+	public void clicks_on_login_button() {
+
+
+
+	}
+
+	@Then("user is navigated to the home page")
+	public void user_is_navigated_to_the_home_page() {
+
+
+
+	}
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

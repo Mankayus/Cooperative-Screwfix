@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="4" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="0.023">
+<testcase classname="Feature to demo tags" name="Sample 1" time="0">
+<failure message="The scenario has no steps" type="java.lang.Exception"/>
+</testcase>
+<testcase classname="Feature to demo tags" name="Sample 2" time="0">
+<failure message="The scenario has no steps" type="java.lang.Exception"/>
+</testcase>
+<testcase classname="Feature to demo tags" name="Sample 3" time="0">
+<failure message="The scenario has no steps" type="java.lang.Exception"/>
+</testcase>
+<testcase classname="Feature to demo tags" name="Sample 4" time="0.001">
+<failure message="The scenario has no steps" type="java.lang.Exception"/>
+</testcase>
+</testsuite>
+n user enters valid username and password................................passed
+And clicks on login button..................................................passed
+Then user is navigated to the home page.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
+n login button..................................................passed
+Then user is navigated to the homepage......................................passed
+When user clicks on order history...........................................passed
+Then Your order history is displayed........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
