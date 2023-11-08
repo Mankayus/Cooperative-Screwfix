@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">  
+<suite name="Suite">
+<listeners>
+<listener class-name="utilities.ExtentReportManager1"/> 		
+</listeners>
+<test thread-count="5"	name="Test"/>
+<parameter name="browser" value="chrome"/>  
+  
+<test name="screfix">  
+  <classes>  
+  <!--class name= "testCase.TC_001_AccountRegisterationTest"/-->
+  <!--class name= "testCase.TC_002_Login"/-->
+  
+   <class name= "testCase.TC_003_Login_DataDriven1"/>
+   
+  
+  </classes>  
+  </test> <!-- Test -->  
+</suite> <!-- Suite -->  
+
+

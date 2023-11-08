@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.m2e.core.wizards.Maven2ProjectWizard"/>
-		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.eclipse.m2e"/>
-		</list>
-	</section>
 	<section name="CleanDialogSettings">
 		<item key="TOGGLE_SELECTED" value="false"/>
 		<item key="DIALOG_WIDTH" value="824"/>
 		<item key="DIALOG_HEIGHT" value="468"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|10.8|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
-		<item key="BUILD_NOW" value="true"/>
-		<item key="BUILD_ALL" value="true"/>
 	</section>
 </section>
